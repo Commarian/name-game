@@ -8,3 +8,6 @@ The game is available on the Google Playstore under name-vanne-diere-dorpe(Afrik
 
 # The Code
 The code was entirely written by me, Christo. It is my first large scale project that I started. The code is written in Java and follows no concise methodology or any good coding practices as it was more of a learning experience for me than anything else.
+
+# Building The Repo
+I keep the Google Playstore project as updated as possible with stable releases. Anybody can download the compiled version of the Application for free. If you insist on building it yourself, I used Android Studio to compile and deploy the app.
