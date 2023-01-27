@@ -1,4 +1,4 @@
-# name-game
+# Name Game
 Name Game, an old traditional game with many different handles and variants. I recreated the one that I used to play growing up.
 
 # The Game
