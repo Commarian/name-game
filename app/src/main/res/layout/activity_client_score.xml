@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cs_mv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:theme="@style/Theme.NameGameT3"
+    tools:context=".HomeMade.Client.ClientScore">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_2_cs"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud2"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_0_cs"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plane"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_3_cs"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud3"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_4_cs"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud4"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_6_cs"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        android:rotationX="180"
+        android:rotationY="180"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plane"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_8_cs"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:srcCompat="@drawable/cloud7"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_7_cs"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="145dp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:srcCompat="@drawable/cloud1"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/nextUserBtnC"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/xml_create"
+        android:text="@string/Vote"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvACDorp" />
+
+    <ImageButton
+        android:id="@+id/correctNaamBtnC"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/transparent"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUNC"
+        app:srcCompat="@drawable/helper_correct" />
+
+    <ImageButton
+        android:id="@+id/correctDierBtnC"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/transparent"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correctVanBtnC"
+        app:srcCompat="@drawable/helper_correct" />
+
+    <ImageButton
+        android:id="@+id/wrongVanBtnC"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/transparent"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/correctVanBtnC"
+        app:layout_constraintTop_toBottomOf="@+id/wrongNaamBtnC"
+        app:srcCompat="@drawable/helper_wrong" />
+
+    <ImageButton
+        android:id="@+id/wrongNaamBtnC"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/transparent"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/correctNaamBtnC"
+        app:layout_constraintTop_toBottomOf="@+id/tvUNC"
+        app:srcCompat="@drawable/helper_wrong" />
+
+    <ImageButton
+        android:id="@+id/correctVanBtnC"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/transparent"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correctNaamBtnC"
+        app:srcCompat="@drawable/helper_correct" />
+
+    <ImageButton
+        android:id="@+id/wrongDorpBtnC"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/transparent"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/correctDorpBtnC"
+        app:layout_constraintTop_toBottomOf="@+id/wrongDierBtnC"
+        app:srcCompat="@drawable/helper_wrong" />
+
+    <ImageButton
+        android:id="@+id/wrongDierBtnC"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/transparent"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/correctDierBtnC"
+        app:layout_constraintTop_toBottomOf="@+id/wrongVanBtnC"
+        app:srcCompat="@drawable/helper_wrong" />
+
+    <ImageButton
+        android:id="@+id/correctDorpBtnC"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/transparent"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correctDierBtnC"
+        app:srcCompat="@drawable/helper_correct" />
+
+    <ProgressBar
+        android:id="@+id/PBCS"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:progressTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvUNC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvWaitC"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_thin"
+        android:text="@string/waiting_for_all_players"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/PBCS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvACDorp2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_thin"
+        android:text="@string/dorp_"
+        android:textAlignment="center"
+        android:textColor="#8FFFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvACDier" />
+
+    <TextView
+        android:id="@+id/tvACDier2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_thin"
+        android:text="@string/dier_"
+        android:textAlignment="center"
+        android:textColor="#8FFFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvACVan" />
+
+    <TextView
+        android:id="@+id/tvACVan2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_thin"
+        android:text="@string/van_"
+        android:textAlignment="center"
+        android:textColor="#8FFFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvACNaam" />
+
+    <TextView
+        android:id="@+id/tvACNaam2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_thin"
+        android:text="@string/naam_"
+        android:textAlignment="center"
+        android:textColor="#8FFFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUNC" />
+
+    <TextView
+        android:id="@+id/tvACDorp"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:text="@string/dorp"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toStartOf="@+id/wrongDorpBtnC"
+        app:layout_constraintTop_toBottomOf="@+id/tvACDier" />
+
+    <TextView
+        android:id="@+id/tvACDier"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:text="@string/dier"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toStartOf="@+id/wrongDierBtnC"
+        app:layout_constraintTop_toBottomOf="@+id/tvACVan" />
+
+    <TextView
+        android:id="@+id/tvACVan"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:text="@string/van"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toStartOf="@+id/wrongVanBtnC"
+        app:layout_constraintTop_toBottomOf="@+id/tvACNaam" />
+
+    <TextView
+        android:id="@+id/tvACNaam"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:text="@string/naam"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toStartOf="@+id/wrongNaamBtnC"
+        app:layout_constraintTop_toBottomOf="@+id/tvUNC" />
+
+    <TextView
+        android:id="@+id/tvUNC"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:gravity="center_vertical"
+        android:text="@string/username"
+        android:textAlignment="textStart"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvUNC2"
+        app:layout_constraintStart_toEndOf="@+id/avatarCS"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUNC2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/leave_game_client_score"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/adViewCS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/helper_exit_door" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/avatarCS"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/transparent"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatar0" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/helper_cast_vote_client"
+        android:layout_width="77dp"
+        android:layout_height="0dp"
+        android:background="#00FFFFFF"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/nextUserBtnC"
+        app:layout_constraintStart_toStartOf="@+id/nextUserBtnC"
+        app:layout_constraintTop_toTopOf="@+id/nextUserBtnC"
+        app:srcCompat="@drawable/helper_vote" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewCS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

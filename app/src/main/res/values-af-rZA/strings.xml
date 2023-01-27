@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Name Vanne</string>
+    <string name="GameOver">Spel Verstreke!</string>
+    <string name="oops">Oops…</string>
+    <string name="hello">Hello…</string>
+    <string name="ahem">Ahem…</string>
+    <string name="pooh">Swak…</string>
+    <string name="wow">Wow…</string>
+    <string name="ouch">Eina…</string>
+    <string name="woeps">Woeps…</string>
+    <string name="waps">Waps…</string>
+    <string name="nextgame">Volg rondte asb…</string>
+    <string name="getthere">Sal nog wen…</string>
+    <string name="tt">Moeilike letter…</string>
+    <string name="quick">Te vinnig…</string>
+    <string name="notime">Geen tyd nie…</string>
+    <string name="imnew">Ek\'s nuut…</string>
+    <string name="tooslow">Te stadig…</string>
+    <string name="help">Help my asb…</string>
+    <string name="trying">Ek probeer…</string>
+    <string name="maybe">Miskien volgende ene…</string>
+    <string name="hard">Baie moeilik…</string>
+    <string name="Vote">Stem</string>
+    <string name="languageScreen">Die taal verandering affekteer slegs die grafiese gebruikerskoppelvlak en nie die speletjie se meganika nie.</string>
+    <string name="afrikaans">Afrikaans</string>
+    <string name="english">Engels</string>
+    <string name="ChooseLanguage">Verander Taal</string>
+    <string name="create_game">Begin nuwe speletjie</string>
+    <string name="join_game">Sluit aan by ander</string>
+    <string name="username">Gebruikersnaam:</string>
+    <string name="ready">Gereed</string>
+    <string name="waiting_for_everyone_to_ready">Besig om te wag vir ander spelers…</string>
+    <string name="choose_longer_un">Kies asb \'n langer gebruikersnaam</string>
+    <string name="switchA">Ruil Google Account</string>
+    <string name="you_want_to_switch">Wil jy van Google Account verander?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="pressbackagain">Druk weer die terug knoppie om die speletjie te verlaat.</string>
+    <string name="are_you_sure_leave">Wil jy die speletjie verlaat?\nGeen punte sal verdien word nie.</string>
+    <string name="leave_title">Verlaat Kamer?</string>
+    <string name="of_special">" uit "</string>
+    <string name="players_ready_special">" Gereed"</string>
+    <string name="the_host_closed">Die kamer-eienaar het die kamer toe gemaak.</string>
+    <string name="finishing_up">Besig om te konnekteer…</string>
+    <string name="leaving_game">Besig om kamer te verlaat.</string>
+    <string name="room_">"Kamer : "</string>
+    <string name="leave_game_return_main">Is jy seker jy wil die speletjie verlaat en terugkeer na die oorspronklike skerm?\nGeen punte sal verdien word nie.</string>
+    <string name="boxes_empty">Vul asb al die boksies eers in.</string>
+    <string name="connecting">Besig met konneksie…</string>
+    <string name="room_name_taken">Kamer naam is alreeds geneem.</string>
+    <string name="failed_connect">Konneksie onvoltooi, probeer asb weer…</string>
+    <string name="eneter_valid_room">Die kamer naam is nie lank genoeg nie.</string>
+    <string name="easy_mode">Maklik</string>
+    <string name="medium_mode">Gemaklik</string>
+    <string name="hardcore_mode">Oorpsronklik</string>
+    <string name="username_taken">Hierdie gebruikersnaam is reeds gevat in hierdie kamer.</string>
+    <string name="room_not_exist">Die kamer bestaan nie.</string>
+    <string name="dorp">Dorp</string>
+    <string name="naam">Naam</string>
+    <string name="name">Name</string>
+    <string name="vanne">Vanne</string>
+    <string name="diere">Diere</string>
+    <string name="dorpe">Dorpe</string>
+    <string name="dier_">Dier:</string>
+    <string name="dorp_">Dorp:</string>
+    <string name="van_">Van:</string>
+    <string name="naam_">Naam:</string>
+    <string name="dier">Dier</string>
+    <string name="van">Van</string>
+    <string name="profile_picture">Profiel Foto</string>
+    <string name="room_s_name">Kamer Naam</string>
+    <string name="enter_the_room_s_name_that_you_wish_to_join">Vul die kamer se naam in waarby jy wil aansluit</string>
+    <string name="choose_difficulty">Kies Spelmodus</string>
+    <string name="enter_the_room_s_name_that_you_wish_to_create">Vul die kamer se naam in wat jy wil skep</string>
+    <string name="done">Klaar</string>
+    <string name="back">Terug</string>
+    <string name="waiting_for_all_players">Wag asseblief vir almal…</string>
+    <string name="settings">Verstellings</string>
+    <string name="how_to_play_btn">Hoe om te speel</string>
+    <string name="bug_report">Raporteer Probleme</string>
+    <string name="exit">Gaan uit</string>
+    <string name="more_info_bug">Voorsien ons asseblief met meer inligting oor enige probleme wat jy ervaar het:</string>
+    <string name="submit_bug">Dien in</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="please_enter_bug_above">Tik asseblief die probleme of foute wat jy ervaar het in die boks bo-aan in.</string>
+    <string name="thank_you_input">Dankie vir jou insette</string>
+    <string name="more_info_hint">Voorsien asb meer informasie hier</string>
+    <string name="sound">Klank</string>
+    <string name="first_time_yes_no">Hi daar!
+    \n\nIs dit die eerste keer wat jy die speletjie speel?</string>
+    <string name="You">Ek</string>
+    <string name="sign_out">Ruil Intekening</string>
+    <string name="waiting_for_more_players">Die speletjie benodig meer as 1 speler in die kamer…</string>
+    <string name="press_ready_when_ready">Druk die GEREED knoppie wanneer jy gereed is om te begin</string>
+    <string name="please_vote_first">Kies asb eers reg of verkeerd langs elke woord.</string>
+    <string name="sorry_no_game_found">Geen speletjie gevind nie. Probeer asb weer.</string>
+    <string name="please_choose_language">Kies asb eers \\\'n taal waarin die speletjie gespeel word.</string>
+    <string name="game_language">Kies Speletjie se Taal</string>
+    <string name="room_pub">Publieke Kamer</string>
+    <string name="custom_mode">Spesiaal</string>
+    <string name="kick_player">Skop Speler Uit</string>
+    <string name="kick_title">Skop Speler?</string>
+    <string name="custom_et4">Tik die 4de onderwerp hier in</string>
+    <string name="custom_et3">Tik die 3de onderwerp hier in</string>
+    <string name="custom_et2">Tik die 2de onderwerp hier in</string>
+    <string name="custom_et1">Tik die 1ste onderwerp hier in</string>
+    <string name="custom_tvInfo">Vul asb die onderwerpe hier onder in</string>
+    <string name="finish_btn">Gaan Voort</string>
+    <string name="room_pub_en">Publieke Kamer - Engels</string>
+    <string name="room_pub_afr">Publieke Kamer - Afrikaans</string>
+    <string name="type_message_here">Tik \'n boodskap</string>
+    <string name="two_mins_passed">2 Minute is verby. Ons beweeg aan.</string>
+    <string name="please_fill_subjects">Vul asb onderwerpe in.</string>
+    <string name="please_enter_longer_subjects">Vul asb langer onderwerpe in.</string>
+    <string name="rush_mode">Haastig</string>
+    <string name="diff_">Spelmodus:</string>
+    <string name="game_finished">Speletjie is verby! Jou punte is bygetel</string>
+    <string name="searching_for_games">Opsoek na beskikbare kamers…</string>
+    <string name="watch_ad_video_title">Nie genoeg punte nie</string>
+    <string name="watch_ad_video_message">Wil jy \'n kort video kyk om gratis punte te kry?</string>
+    <string name="your_account_has_been_credited">Jy het punte gekry!</string>
+    <string name="the_ad_isnt_ready_yet_please_retry">Die advertensie is nognie beskikbaar nie. Probeer weer in \'n paar minute.</string>
+    <string name="select_this_avatar">Kies Avatar</string>
+    <string name="do_you_want_to_select">Is jy seker jy wil hierdie avatar kies?</string>
+    <string name="avatar_1_description">Is jy seker jy wil hierdie avatar koop vir 250? Jou balans is:</string>
+    <string name="avatar_2_description">Is jy seker jy wil hierdie avatar koop vir 250? Jou balans is:</string>
+    <string name="avatar_3_description">Is jy seker jy wil hierdie avatar koop vir 250? Jou balans is:</string>
+    <string name="avatar_4_description">Is jy seker jy wil hierdie avatar koop vir 250? Jou balans is:</string>
+    <string name="avatar_5_description">Is jy seker jy wil hierdie avatar koop vir 250? Jou balans is:</string>
+    <string name="avatar_6_description">Is jy seker jy wil hierdie avatar koop vir 500? Jou balans is:</string>
+    <string name="avatar_7_description">Is jy seker jy wil hierdie avatar koop vir 500? Jou balans is:</string>
+    <string name="avatar_8_description">Is jy seker jy wil hierdie avatar koop vir 500? Jou balans is:</string>
+    <string name="avatar_9_description">Is jy seker jy wil hierdie avatar koop vir 500? Jou balans is:</string>
+    <string name="avatar_10_description">Is jy seker jy wil hierdie avatar koop vir 1000? Jou balans is:</string>
+    <string name="avatar_11_description">Is jy seker jy wil hierdie avatar koop vir 1200? Jou balans is:</string>
+    <string name="avatar_12_description">Is jy seker jy wil hierdie avatar koop vir 1300? Jou balans is:</string>
+    <string name="avatar_13_description">Is jy seker jy wil hierdie avatar koop vir 1400? Jou balans is:</string>
+    <string name="avatar_14_description">Is jy seker jy wil hierdie avatar koop vir 1500? Jou balans is:</string>
+    <string name="avatar_15_description">Is jy seker jy wil hierdie avatar koop vir 1500? Jou balans is:</string>
+    <string name="avatar_16_description">Is jy seker jy wil hierdie avatar koop vir 1700? Jou balans is:</string>
+    <string name="avatar_17_description">Is jy seker jy wil hierdie avatar koop vir 1700? Jou balans is:</string>
+    <string name="avatar_18_description">Is jy seker jy wil hierdie avatar koop vir 1700? Jou balans is:</string>
+    <string name="avatar_19_description">Is jy seker jy wil hierdie avatar koop vir 1900? Jou balans is:</string>
+    <string name="avatar_20_description">Is jy seker jy wil hierdie avatar koop vir 1900? Jou balans is:</string>
+    <string name="avatar_21_description">Is jy seker jy wil hierdie avatar koop vir 2200? Jou balans is:</string>
+    <string name="avatar_22_description">Is jy seker jy wil hierdie avatar koop vir 2200? Jou balans is:</string>
+    <string name="avatar_23_description">Is jy seker jy wil hierdie avatar koop vir 2500? Jou balans is:</string>
+    <string name="avatar_24_description">Is jy seker jy wil hierdie avatar koop vir 2500? Jou balans is:</string>
+    <string name="avatar_25_description">Is jy seker jy wil hierdie avatar koop vir 2500? Jou balans is:</string>
+    <string name="auth_failed">Verifikasie het misluk. Besig om weer te probeer… (Maak seker oor konneksie)</string>
+    <string name="error">Error. Herlaai asb die toep of kyk of jou internet konneksie werk.</string>
+    <string name="points_clicked_main_menu">Die is jou punte.\nJy verdien punte wanneer jy speletjies klaar maak of advertensie-videos kyk.\nWil jy \'n kort advertensie-video kyk vir meer punte?</string>
+    <string name="credits_btn">Krediete</string>
+    <string name="play_game_btn">Speel</string>
+    <string name="privacy_btn">Privaatheids Inligting</string>
+    <string name="public_room_btn">Speel Aanlyn</string>
+    <string name="private_room_btn">Speel Met Vriende</string>
+    <string name="privacy_policy">Gebruikers het die reg om te weet watter informasie ons ontvang en gebruik.
+        \n\nComma Dev is \'n klein ateljee wat gebruik maak van ander maatskappye(derdeparty-operateurs) se dienste om kritiese informasie vir toekomstige opdaterings te bekom.
+        \n\nDeur die speletjie te speel, aanvaar jy die bepalings en voorwaardes asook die privaatheidsbeleid.
+    </string>
+    <string name="read_more">Lees Meer</string>
+    <string name="error_getting_version">Fout met weergawe.</string>
+
+
+    <string name="optional_update_title">Opsionele Weergawe Beskikbaar</string>
+    <string name="req_update_title">Belangrike Weergawe Beskikbaar</string>
+    <string name="optional_update_message">Nuwe opsionele weergawe is uit!\nJy kan opdateer deur om op die opdateer knoppie te druk.</string>
+    <string name="req_update_message">Nuwe belangrike weergawe is uit!\nJy moet die speletjie opdateer voor jy kan verder speel.</string>
+    <string name="update">Opdateer</string>
+    <string name="later">Later</string>
+    <string name="press_back_if_cant_sign">Druk eenkeer die terug knoppie as jy nie inkom nie.</string>
+
+
+
+    <!-- HELPS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+
+
+    <string name="public_private_help"><b><u><big>Speel Aanlyn</big></u></b>
+    \n\nKies hierdie opsie as jy teen ander spelers wil speel, aanlyn.
+    \n\n\n<b><u><big>Speel Met Vriende</big></u></b>
+    \n\nKies hierdie opsie indien jy saam met vriende of familie wil speel. \nSlegs mense met die kamer se naam kan by die kamer aansluit.</string>
+
+    <string name="join_create_help"><b><u><big>Begin Nuwe Speletjie</big></u></b>
+    \n\nHierdie opsie laat jou toe om \'n speletjie te begin met \'n spesiale naam.
+        \n\nJy kan dan hierdie spesiale naam deel met jou vriende of familie sodat hulle kan aansluit by die kamer.
+    \n\n\n<b><u><big>Sluit Aan By Kamer</big></u></b>
+    \n\nHierdie opsie laat jou toe om aan te sluit by \'n vriend se kamer.\n\nHulle sal die spesiale kamer-naam met jou deel sodat jy by hulle kan aansluit.</string>
+
+    <string name="join_game_pri_help"><b><u><big>Sluit Aan By Kamer</big></u></b>
+    \n\nVul asseblief die kamer se naam in die boksie bo-aan in.
+    \n\nDit is die spesiale naam wat jou vriend vir die kamer gegee het.
+    \n\nMaak seker om dit presies reg in te tik, dit is hooflettergevoelig.</string>
+
+    <string name="join_game_pub_help"><b><u><big>Vind Speletjie</big></u></b>
+    \n\nKies \'n taal waarin jy wil speel deurom die taal knoppie te druk totdat jou verkiesde taal verskyn.
+    \n\nDie taal wat jy kies sal in die speletjie gebruik moet word vir woorde.
+        \n\nJy mag dalk nie punte toegeken word as jy nie die taal gebruik nie.
+    \n\nDruk die speel knoppie en jy sal gekonnekteer word met ander spelers met dieselfde taal.</string>
+
+    <string name="create_game_pri_help"><b><u><big>Begin Nuwe Speletjie</big></u></b>
+    \n\nVul asseblief die kamer se naam in die boksie bo-aan in.
+    \n\nDit is die spesiale naam wat jy vir jou vriende of familie moet gee sodat hulle kan aansluit.
+    \n\nHou in gedagte dat dit hooflettergevoelig is.</string>
+
+    <string name="create_game_pub_help"><b><u><big>Begin Nuwe Speletjie</big></u></b>
+        \n\nKies \'n spelmodus deurom die knoppie te druk.
+        \n\n(Indien jy meer oor \'n spesifieke spelmodus wil uitvind, druk die help knoppie bo-aan.)
+            \n\nDie taal wat jy kies sal in die speletjie gebruik moet word vir woorde.
+        \n\nJy mag dalk nie punte toegeken word as jy nie die taal gebruik nie.</string>
+
+    <string name="create_game_solo_help"><b><u><big>Begin Nuwe Speletjie</big></u></b>
+        \n\nKies \'n spelmodus deurom die knoppie te druk.
+        \n\n(Indien jy meer oor \'n spesifieke spelmodus wil uitvind, druk die help knoppie bo-aan.)
+            \n\nDie taal wat jy kies sal in die speletjie gebruik moet word vir woorde.
+        \n\nJy kry geen punte as jy \'n ander taal gebruik nie.</string>
+
+    <string name="public_difficulty_help"><b><u><big>Gemaklik</big></u></b>:\t
+        Moeilike letters(Q-V-W-X-Y-Z) word uit die alfabet verwyder en geen grasie periode word gegee nie.
+        \n\n<b><u><big>Oorspronklik</big></u></b>:\t Geen letters word uit die alfabet verwyder nie en geen grasie periode word gegee nie.</string>
+
+    <string name="private_difficulty_help"><b><u><big>Maklik</big></u></b>:\t
+       Moeilike letters(Q-V-W-X-Y-Z) word uit die alfabet verwyder en \'n 3 sekonde grasie periode word aan al die spelers gegee na stop geroep is.
+        \n\n<b><u><big>Gemaklik</big></u></b>:\t Moeilike letters(Q-V-W-X-Y-Z) word uit die alfabet verwyder en geen grasie periode word gegee nie.
+        \n\n<b><u><big>Oorspronklik</big></u></b>:\t Geen letters word uit die alfabet verwyder nie en geen grasie periode word gegee nie.
+        \n\n<b><u><big>Spesiaal</big></u></b>:\t Geen letters word verwyder nie, maar jy kan kies wat die onderwerpe moet wees.
+        \nNaam, Van, Dier en Dorp kan verander word na enige ander onderwerpe.</string>
+
+    <string name="solo_difficulty_help"><b><u><big>Maklik</big></u></b>:\t
+        Die rekenaar tik baie stadig en is maklik om te wen.
+        \n\n<b><u><big>Middelmatig</big></u></b>:\t Die rekenaar is baie beter en kan soms moeilik wees om te wen.
+        \n\n<b><u><big>Moeilik</big></u></b>:\t Die rekenaar is nou kwaad, sterkte!</string>
+
+    <string name="how_to_play_help">\nDie doel van die speletjie is om aan woorde te dink wat begin met \'n ewekansige letter, vinniger as enige iemand anders in die kamer.
+        \n\nJy moet \'n naam, van, dier en dorp/stad dink wat begin met die letter wat op jou skerm sal verskyn.
+        \n\nOm meer uit te vind oor die speletjie en spelmodus, gaan na "Begin Nuwe Speletjie" en druk die hul ikoon.</string>
+    <string name="share_button">Nooi</string>
+    <string name="share_text">Kry Name, Vanne, Diere, Dorpe op Google Play!</string>
+    <string name="enter_number_of_rounds">Hoeveelheid rondtes of letters:</string>
+    <string name="game_over_btn">Speletjie is klaar!</string>
+    <string name="text_contains_profanity">Onaanvaarbare woord in jou naam. Kies iets paslik asb</string>
+    <string name="sorry_game_full">Jammer, daar is nie meer spasie in die kamer nie.</string>
+    <string name="leaving_game_no_players">Almal het die speletjie verlaat.</string>
+    <string name="solo_room_btn">Speel Alleen</string>
+    <string name="continue_button">Gaan Voort</string>
+    <string name="solo_dialogue_title">Neem kennis</string>
+    <string name="solo_dialogue_message">Die funksie is nuut en mag dalk nie die woorde reg merk nie. Gee dit gerus \'n probeerslag.</string>
+    <string name="easy_mode_solo">Maklik</string>
+    <string name="medium_mode_solo">Middelmatig</string>
+    <string name="hardcore_mode_solo">Moeilik</string>
+    <string name="tut_mess_0">Jou veranderlike verbruikersnaam</string>
+    <string name="tut_mess_1">Die is jou avatar, jy kan nuwes koop met punte</string>
+    <string name="tut_mess_2">Jou totale punte, speel aanlyn om meer te verdien!</string>
+    <string name="tut_mess_3">Deel die speletjie met meer mense</string>
+    <string name="tut_next">Goed dan</string>
+    <string name="tut_stop">Kanselleer</string>
+    <string name="tut_mess_4">Speel met enige iemand wat opsoek is na \'n speletjie</string>
+    <string name="tut_mess_5">Speel in n kamer met \'n spesiale naam wat net jou vriende ken</string>
+    <string name="tut_mess_6">Speel alleen en verken die speletjie</string>
+    <string name="background_animations">Agtergrond animasies</string>
+    <string name="text_if_owned">Kies</string>
+    <string name="language_first_time_mesg">Is die taal reg vir jou?\nIndien nie, kan jy van tale verander hieronder.</string>
+    <string name="tut_mess_8">Sluit aan by vriende met \'n spesiale kode</string>
+    <string name="tut_mess_7">Begin \'n speletjie met \'n spesiale kode</string>
+</resources>

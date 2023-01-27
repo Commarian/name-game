@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="ButtonTheme0" parent="android:Widget.Material.Button.Borderless">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/xml_create</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:fontFamily">@font/advent_pro_semibold</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+
+</resources>

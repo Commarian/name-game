@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/avatar1.xml" value="0.3315" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/avatar6.xml" value="0.3315" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/background.xml" value="0.3315" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/cloud1.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/cloud2.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/cloud3.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/cloud4.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/cloud5.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/cloud6.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/cloud7.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/cloud8.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/create_game_private.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/helper_animation.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/helper_bug.xml" value="0.3315" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/helper_credits.xml" value="0.3315" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.3315" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3315" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/ic_splash.xml" value="0.3315" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/join_game_private.xml" value="0.1655" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/tut_box.xml" value="0.173" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/tut_box_trans.xml" value="0.3315" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/xml_big_mint.xml" value="0.36923076923076925" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/drawable/xml_exit.xml" value="0.3315" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout-large/activity_public_private.xml" value="0.5925572519083969" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout-small/activity_client1.xml" value="1.183712121212121" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout-small/activity_client_scoreboard.xml" value="1.1988636363636365" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout-small/activity_public_private.xml" value="1.1761363636363635" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout-small/activity_server1.xml" value="1.183712121212121" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout-small/activity_server_scoreboard.xml" value="1.183712121212121" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_avatar.xml" value="0.2679862961553102" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_bug.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_client1.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_client_game.xml" value="0.2866847826086957" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_client_score.xml" value="0.33" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_client_scoreboard.xml" value="0.2866847826086957" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_create.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_credits.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_custom_host.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_first_time.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_help.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_join.xml" value="0.22" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_join_create.xml" value="0.2" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_language.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_language_ini.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_privacy_policy.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_public_private.xml" value="0.2" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_server1.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_server_game.xml" value="0.3590411672746222" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_server_score.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_server_scoreboard.xml" value="0.2866847826086957" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/activity_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/fragment_messaging.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Commarian/AndroidStudioProjects/NameGameT3/app/src/main/res/layout/item_recycler.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1026879156639",
+    "firebase_url": "https://letsnamegame-default-rtdb.firebaseio.com",
+    "project_id": "letsnamegame",
+    "storage_bucket": "letsnamegame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026879156639:android:3e8ca60a7e4e1cce1e0daa",
+        "android_client_info": {
+          "package_name": "com.commarian.namegamet3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026879156639-6g11u6djt0qetvgq0gena7s23s73nl2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.commarian.namegamet3",
+            "certificate_hash": "d62d2daddf62773c60e31564fee85cc5958aacb6"
+          }
+        },
+        {
+          "client_id": "1026879156639-frtp4remdve3k8g0di795tn21vk9m2e6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.commarian.namegamet3",
+            "certificate_hash": "8dcfe075a4cf4b7cccfeb923a0e814ae1b14e065"
+          }
+        },
+        {
+          "client_id": "1026879156639-o5u7ddetnbr15vp0f8kp38g51obsd0q7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.commarian.namegamet3",
+            "certificate_hash": "26dc35365838b2d77ff3789fe9e7b399d2416061"
+          }
+        },
+        {
+          "client_id": "1026879156639-ucouh0rsrrrtcsc28a01fndfdc9eiai8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.commarian.namegamet3",
+            "certificate_hash": "3f0407e3136deef74777c1ff9df9e607350c23ba"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6WVXszGDo-EP1daNJLZ1fmymPGRF3xBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026879156639-m4avnjtnp2rn8am5qrpehkvv1t4sltck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5387826663381029~7382147832"
+    }
+  ],
+  "configuration_version": "1"
+}

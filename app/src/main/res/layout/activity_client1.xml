@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ca_mv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:theme="@style/Theme.NameGameT3"
+    tools:context=".HomeMade.Client.ClientActivity1">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_7_ca1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="145dp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:srcCompat="@drawable/cloud1"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_6_ca1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        android:rotationX="180"
+        android:rotationY="180"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plane"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_3_ca1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud3"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_4_ca1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud4"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_8_ca1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:srcCompat="@drawable/cloud7"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_0_ca1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plane"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_2_ca1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud2"
+        tools:visibility="invisible" />
+    <Button
+        android:id="@+id/btnReadyCA1"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/xml_ready"
+        android:text="@string/ready"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/leave_game_client_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/PBC1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/c1Scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/tvInfoC1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adViewCA1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/hore1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/avatarC1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/avatar0"
+                    tools:layout_constraintHorizontal_bias="0.25" />
+
+                <TextView
+                    android:id="@+id/tvU0C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/advent_pro_semibold"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    tools:layout_constraintHorizontal_bias="0.25" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hore2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/avatarC2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/avatar0" />
+
+                <TextView
+                    android:id="@+id/tvU1C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/advent_pro_semibold"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    tools:layout_constraintHorizontal_bias="0.25" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hore3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/avatarC3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/avatar0" />
+
+                <TextView
+                    android:id="@+id/tvU2C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/advent_pro_semibold"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    tools:layout_constraintHorizontal_bias="0.25" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hore4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/avatarC4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/avatar0" />
+
+                <TextView
+                    android:id="@+id/tvU3C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/advent_pro_semibold"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    tools:layout_constraintHorizontal_bias="0.25" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hore5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/avatarC5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/avatar0" />
+
+                <TextView
+                    android:id="@+id/tvU4C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/advent_pro_semibold"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    tools:layout_constraintHorizontal_bias="0.25" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/hore6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/avatarC6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/transparent"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/avatar0" />
+
+                <TextView
+                    android:id="@+id/tvU5C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/advent_pro_semibold"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    tools:layout_constraintHorizontal_bias="0.25" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvReadyCA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/messageButtonClient1"
+        app:layout_constraintStart_toEndOf="@+id/leave_game_client_1" />
+
+    <TextView
+        android:id="@+id/tvInfoC1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvCDCA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c1Scroll"
+
+        />
+
+    <TextView
+        android:id="@+id/tvCDCA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:textSize="40sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/btnReadyCA1"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/messageButtonClient1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/old_message" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/helper_ready_c1"
+        android:layout_width="77dp"
+        android:layout_height="0dp"
+        android:background="#00FFFFFF"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btnReadyCA1"
+        app:layout_constraintStart_toStartOf="@+id/btnReadyCA1"
+        app:layout_constraintTop_toTopOf="@+id/btnReadyCA1"
+        app:srcCompat="@drawable/helper_ready" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/leave_game_client_1"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/helper_exit_door" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_client_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="35dp"
+        android:background="#FA2C2C2C"
+        android:translationZ="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewCA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

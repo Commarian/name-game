@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#FF6200EE</color>
+
+    <color name="teal_600">#039696</color>
+
+    <color name="red">#DA0C0C</color>
+    <color name="red_text">#FF0E0E</color>
+    <color name="green">#1B5E20</color>
+    <color name="green_text">#00C800</color>
+    <color name="orange">#E65100</color>
+    <color name="grey">#424242</color>
+    <color name="blue_text">#4DB1FF</color>
+
+    <color name="correct_db_text">#B7FFB7</color>
+
+    <color name="mint_button_big">#4A1A5E</color>
+    <color name="green_button_big">#2F6509</color>
+    <color name="snackback">#1E1E1E</color>
+
+
+
+    <color name="cyan_500">#00A9BF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="red_200">#C80A0A</color>
+    <color name="red_700">#00FF00</color>
+    <color name="red_800">#FF0000</color>
+
+
+    <color name="white_overlay">#939393</color>
+
+    <color name="yellow_text">#FFFF00</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#323232</color>
+
+    <color name="hint">#AAAAAA</color>
+
+
+    <color name="snack_text">#FF5722</color>
+    <color name="tut_info">#F0FF22</color>
+
+
+    <color name="yellow">#CAAF1F</color>
+
+
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="blue_darker">#002C40</color>
+    <color name="blue_darkest">#03299C</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

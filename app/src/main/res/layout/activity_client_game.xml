@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cga_mv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+
+    android:theme="@style/Theme.NameGameT3"
+    android:windowSoftInputMode="stateVisible"
+    tools:context=".HomeMade.Client.ClientGameActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_7_cga"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="145dp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:srcCompat="@drawable/cloud1"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_6_cga"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        android:rotationX="180"
+        android:rotationY="180"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plane"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_3_cga"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud3"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_8_cga"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:srcCompat="@drawable/cloud7"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_4_cga"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud4"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_2_cga"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cloud2"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bg_0_cga"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plane"
+        tools:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/etDiereC"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="5dp"
+        android:hint="@string/dier"
+        android:imeOptions="actionNext"
+        android:inputType="textVisiblePassword|textNoSuggestions|textCapWords"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvDiereC"
+        app:layout_constraintTop_toBottomOf="@+id/etVanneC" />
+
+    <EditText
+        android:id="@+id/etVanneC"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="5dp"
+        android:hint="@string/van"
+        android:imeOptions="actionNext"
+        android:inputType="textVisiblePassword|textNoSuggestions|textCapWords"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvVanneC"
+        app:layout_constraintTop_toBottomOf="@+id/etNameC" />
+
+    <EditText
+        android:id="@+id/etDorpeC"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="5dp"
+        android:hint="@string/dorp"
+        android:imeOptions="actionNext"
+        android:inputType="textVisiblePassword|textNoSuggestions|textCapWords"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvDorpeC"
+        app:layout_constraintTop_toBottomOf="@+id/etDiereC" />
+
+    <EditText
+        android:id="@+id/etNameC"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:hint="@string/naam"
+        android:imeOptions="actionNext"
+        android:inputType="textVisiblePassword|textNoSuggestions|textCapWords"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvNameC"
+        app:layout_constraintTop_toBottomOf="@+id/adViewCGA" />
+
+    <TextView
+        android:id="@+id/tvNameC"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:gravity="center_vertical"
+        android:text="@string/name"
+        android:textSize="21sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adViewCGA" />
+
+    <TextView
+        android:id="@+id/tvVanneC"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="5dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:gravity="center_vertical"
+        android:text="@string/vanne"
+        android:textSize="21sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameC" />
+
+    <TextView
+        android:id="@+id/tvDiereC"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="5dp"
+        android:background="@color/transparent"
+
+        android:fontFamily="@font/advent_pro_semibold"
+        android:gravity="center_vertical"
+        android:text="@string/diere"
+        android:textSize="21sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVanneC" />
+
+    <TextView
+        android:id="@+id/tvDorpeC"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="5dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:gravity="center_vertical"
+        android:text="@string/dorpe"
+        android:textSize="21sp"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDiereC" />
+
+    <TextView
+        android:id="@+id/tvLetterC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:background="@color/transparent"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CAGCDT" />
+
+    <TextView
+        android:id="@+id/CAGCDT"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:textAlignment="center"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDorpeC" />
+
+    <TextView
+        android:id="@+id/TVLangGameClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:background="@color/transparent"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stop_btn_client_game"
+        app:layout_constraintVertical_bias="0.75" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/stop_btn_client_game"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDorpeC"
+        app:srcCompat="@drawable/xml_stop" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewCGA"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

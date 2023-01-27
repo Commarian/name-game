@@ -1,0 +1,337 @@
+<resources>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="fcm_message" translatable="false">FCM Message</string>
+    <string name="app_name">Name Game</string>
+    <string name="GameOver">Game Over!</string>
+    <string name="default_web_client_id_str" translatable="false">"1026879156639-m4avnjtnp2rn8am5qrpehkvv1t4sltck.apps.googleusercontent.com"</string>
+    <string name="Vote">Cast Vote</string>
+    <string name="oops">Oops…</string>
+    <string name="hard">Game is hard…</string>
+    <string name="maybe">Maybe next one…</string>
+    <string name="trying">I\'m trying…</string>
+    <string name="help">Help me pls…</string>
+    <string name="tooslow">Too slow…</string>
+    <string name="imnew">I\'m new…</string>
+    <string name="notime">No time…</string>
+    <string name="quick">Too quick…</string>
+    <string name="tt">Hard letter…</string>
+    <string name="type_message_here">Type a message</string>
+    <string name="getthere">Will get there…</string>
+    <string name="nextgame">Next game pls…</string>
+    <string name="woeps">Woeps…</string>
+    <string name="two_mins_passed">2 Minutes have passed. Moving on to the next round…</string>
+    <string name="waps">Waps…</string>
+    <string name="ouch">Ouch…</string>
+    <string name="wow">Wow…</string>
+    <string name="pooh">Pooh…</string>
+    <string name="ahem">Ahem…</string>
+    <string name="hello">Hello…</string>
+    <string name="afrikaans">Afrikaans</string>
+    <string name="english">English</string>
+    <string name="ChooseLanguage">Change Language</string>
+    <string name="languageScreen"><b>Please choose your preferred language below.</b>
+        \n\nChanging the language of the game will only change the language of the graphics only, it will not affect the gameplay.</string>
+    <string name="username">Username:</string>
+    <string name="join_game">Join Game</string>
+    <string name="create_game">Create Game</string>
+    <string name="ready">READY</string>
+    <string name="waiting_for_everyone_to_ready">Waiting For Everyone To Ready…</string>
+    <string name="choose_longer_un">Please choose a longer username</string>
+    <string name="switchA">Switch Accounts</string>
+    <string name="you_want_to_switch">Do you want to switch accounts?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="pressbackagain">Press back again to exit game.</string>
+    <string name="are_you_sure_leave">Are you sure you want to leave this game?\nYou won\'t receive any points when you leave.</string>
+    <string name="leave_title">Leave Room?</string>
+    <string name="finishing_up">Finishing up connection…</string>
+    <string name="the_host_closed">The Host Closed This Game.</string>
+    <string name="of_special"> Of </string>
+    <string name="players_ready_special"> Ready</string>
+    <string name="leaving_game">Leaving Game.</string>
+    <string name="leaving_game_no_players">Leaving Game - Everybody left the game</string>
+    <string name="room_">"Room : "</string>
+    <string name="leave_game_return_main">Are you sure you want to leave this game and return to the Main Menu?\nYou won\'t receive any points when you leave.</string>
+    <string name="boxes_empty">Please fill in all the boxes first.</string>
+    <string name="connecting">Connecting…</string>
+    <string name="room_name_taken">Room Name Already Taken.</string>
+    <string name="failed_connect">Connection to server failed. Please retry…</string>
+    <string name="eneter_valid_room">Please Enter a Valid Room Name.</string>
+    <string name="easy_mode">Grace Mode</string>
+    <string name="easy_mode_solo">Beginner Mode</string>
+    <string name="medium_mode">Relaxed Mode</string>
+    <string name="medium_mode_solo">Intermediate Mode</string>
+    <string name="hardcore_mode">Original Mode</string>
+    <string name="hardcore_mode_solo">Hard Mode</string>
+    <string name="sorry_game_full">Sorry, There is no more room in this game.</string>
+    <string name="username_taken">Your Username is Taken… Twice.</string>
+    <string name="room_not_exist">This Room Does Not Exist.</string>
+    <string name="dier">Animal</string>
+    <string name="van">Surname</string>
+    <string name="dorp">Town</string>
+    <string name="naam">Name</string>
+    <string name="name">Name</string>
+    <string name="vanne">Surname</string>
+    <string name="diere">Animal</string>
+    <string name="dorpe">Town</string>
+    <string name="dier_">Animal:</string>
+    <string name="sound">Sound</string>
+    <string name="dorp_">Town:</string>
+    <string name="van_">Surname:</string>
+    <string name="naam_">Name:</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="room_s_name">Enter Room Name Here</string>
+    <string name="enter_the_room_s_name_that_you_wish_to_join">Enter the room\'s name that you wish to join</string>
+    <string name="choose_difficulty">Choose Difficulty</string>
+    <string name="room_pub">Public Room</string>
+    <string name="room_pub_en">Public Room - English</string>
+    <string name="room_pub_afr">Public Room - Afrikaans</string>
+    <string name="game_language">Choose Game Language</string>
+    <string name="please_choose_language">Please choose a game language first by pressing the language button</string>
+    <string name="enter_the_room_s_name_that_you_wish_to_create">Enter the room\'s name that you wish to create</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <string name="waiting_for_all_players">Waiting for all players…</string>
+    <string name="auth_failed">Authentication Failed… Retrying… (Check connection)</string>
+    <string name="error">Error. Please restart your game… Or check your internet connection</string>
+    <string name="settings">Settings</string>
+    <string name="how_to_play_btn">How To Play</string>
+    <string name="bug_report">Report Issues</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit_bug">Submit</string>
+    <string name="more_info_bug">Please provide us with more info about any issues you are facing using the text box below.</string>
+    <string name="please_enter_bug_above">Please type out the issues you are facing using the text box above. You can also type suggestions in here.</string>
+    <string name="thank_you_input">Thank you for your input</string>
+    <string name="more_info_hint">Please provide more info here.</string>
+
+    <string name="You">You</string>
+    <string name="sign_out">Switch Accounts</string>
+    <string name="background_animations">Background Animations</string>
+    <string name="waiting_for_more_players">Waiting for more players to connect…</string>
+    <string name="press_ready_when_ready">Press the READY button when you are ready to start</string>
+    <string name="please_vote_first" translatable="true">Please vote for every word first…</string>
+    <string name="app_id" translatable="false">1026879156639</string>
+    <string name="share_link" translatable="false">https://play.google.com/store/apps/details?id=com.commarian.namegamet3</string>
+    <string name="game_over_btn">Game Over!</string>
+    <string name="continue_button">Continue</string>
+    <string name="solo_dialogue_title">Please note</string>
+    <string name="solo_dialogue_message">The solo game mode is still in development and as such you might not get credit for some words yet.</string>
+    <string name="first_time_yes_no">Hi There!
+    \n\nIs this your first time playing the game?</string>
+
+    <!-- Ads TESTING
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="reward_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+    -->
+
+    <!-- and my own ads
+
+    -->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-5387826663381029/2482573742</string>
+    <string name="reward_ad_unit_id" translatable="false">ca-app-pub-5387826663381029/4260333469</string>
+
+
+    <string name="sorry_no_game_found">Sorry, no games found. Please retry.</string>
+    <string name="kick_player">Kick Player </string>
+    <string name="kick_title">Kick Player?</string>
+    <string name="custom_mode">Custom Mode</string>
+    <string name="rush_mode">Rush Mode</string>
+    <string name="custom_et4">Enter the 4th subject here</string>
+    <string name="custom_et3">Enter the 3rd subject here</string>
+    <string name="custom_et2">Enter the 2nd subject here</string>
+    <string name="custom_et1">Enter the 1st subject here</string>
+    <string name="custom_tvInfo">Please enter the subjects for the custom game mode below</string>
+    <string name="finish_btn">Finish</string>
+    <string name="please_fill_subjects">Please enter subjects above.</string>
+    <string name="please_enter_longer_subjects">Please enter longer subjects.</string>
+    <string name="diff_">Difficulty:</string>
+    <string name="game_finished">Game is over! Your account has been credited with points</string>
+    <string name="searching_for_games">Searching for available games…</string>
+
+
+    <!-- AVATARS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <string name="avatar_1_description">Are you sure you want to buy this avatar for 250? Your balance is:</string>
+    <string name="avatar_1_title" translatable="false">250</string>
+    <string name="avatar_2_description">Are you sure you want to buy this avatar for 250? Your balance is:</string>
+    <string name="avatar_2_title" translatable="false">250</string>
+    <string name="avatar_3_description">Are you sure you want to buy this avatar for 250? Your balance is:</string>
+    <string name="avatar_3_title" translatable="false">250</string>
+    <string name="avatar_4_description">Are you sure you want to buy this avatar for 250? Your balance is:</string>
+    <string name="avatar_4_title" translatable="false">250</string>
+    <string name="avatar_5_description">Are you sure you want to buy this avatar for 250? Your balance is:</string>
+    <string name="avatar_5_title" translatable="false">250</string>
+    <string name="avatar_6_description">Are you sure you want to buy this avatar for 500? Your balance is:</string>
+    <string name="avatar_6_title" translatable="false">500</string>
+    <string name="avatar_7_description">Are you sure you want to buy this avatar for 500? Your balance is:</string>
+    <string name="avatar_7_title" translatable="false">500</string>
+    <string name="avatar_8_description">Are you sure you want to buy this avatar for 500? Your balance is:</string>
+    <string name="avatar_8_title" translatable="false">500</string>
+    <string name="avatar_9_description">Are you sure you want to buy this avatar for 500? Your balance is:</string>
+    <string name="avatar_9_title" translatable="false">500</string>
+    <string name="avatar_10_description">Are you sure you want to buy this avatar for 1000? Your balance is:</string>
+    <string name="avatar_10_title" translatable="false">1000</string>
+    <string name="avatar_11_description">Are you sure you want to buy this avatar for 1200? Your balance is:</string>
+    <string name="avatar_11_title" translatable="false">1200</string>
+    <string name="avatar_12_description">Are you sure you want to buy this avatar for 1300? Your balance is:</string>
+    <string name="avatar_12_title" translatable="false">1300</string>
+    <string name="avatar_13_description">Are you sure you want to buy this avatar for 1400? Your balance is:</string>
+    <string name="avatar_13_title" translatable="false">1400</string>
+    <string name="avatar_14_description">Are you sure you want to buy this avatar for 1500? Your balance is:</string>
+    <string name="avatar_14_title" translatable="false">1500</string>
+    <string name="avatar_15_description">Are you sure you want to buy this avatar for 1500? Your balance is:</string>
+    <string name="avatar_15_title" translatable="false">1500</string>
+    <string name="avatar_16_description">Are you sure you want to buy this avatar for 1700? Your balance is:</string>
+    <string name="avatar_16_title" translatable="false">1700</string>
+    <string name="avatar_17_description">Are you sure you want to buy this avatar for 1700? Your balance is:</string>
+    <string name="avatar_17_title" translatable="false">1700</string>
+    <string name="avatar_18_description">Are you sure you want to buy this avatar for 1700? Your balance is:</string>
+    <string name="avatar_18_title" translatable="false">1700</string>
+    <string name="avatar_19_description">Are you sure you want to buy this avatar for 1900? Your balance is:</string>
+    <string name="avatar_19_title" translatable="false">1900</string>
+    <string name="avatar_20_description">Are you sure you want to buy this avatar for 1900? Your balance is:</string>
+    <string name="avatar_20_title" translatable="false">1900</string>
+    <string name="avatar_21_description">Are you sure you want to buy this avatar for 2200? Your balance is:</string>
+    <string name="avatar_21_title" translatable="false">2200</string>
+    <string name="avatar_22_description">Are you sure you want to buy this avatar for 2200? Your balance is:</string>
+    <string name="avatar_22_title" translatable="false">2200</string>
+    <string name="avatar_23_description">Are you sure you want to buy this avatar for 2500? Your balance is:</string>
+    <string name="avatar_23_title" translatable="false">2500</string>
+    <string name="avatar_24_description">Are you sure you want to buy this avatar for 2500? Your balance is:</string>
+    <string name="avatar_24_title" translatable="false">2500</string>
+    <string name="avatar_25_description">Are you sure you want to buy this avatar for 2500? Your balance is:</string>
+    <string name="avatar_25_title" translatable="false">2500</string>
+    <string name="watch_ad_video_title">Insufficient Funds</string>
+    <string name="watch_ad_video_message">Do you want to watch a short video to get more points?\nYour balance: </string>
+    <string name="your_account_has_been_credited">You gained points!</string>
+    <string name="the_ad_isnt_ready_yet_please_retry">The ad is not ready yet. Please try again in a few minutes.</string>
+    <string name="text_if_owned">Select</string>
+    <string name="select_this_avatar">Select Avatar</string>
+    <string name="do_you_want_to_select">Are you sure you want to select this avatar?</string>
+    <string name="points_clicked_main_menu">This is your points.\nYou earn points by finishing games or watching ad-videos.\nDo you want to watch an ad-video right now?</string>
+    <string name="credits_btn">Credits</string>
+    <string name="privacy_btn">Privacy Info</string>
+    <string name="read_more">Read More</string>
+    <string name="play_game_btn">Play</string>
+    <string name="public_room_btn">Play Online</string>
+    <string name="private_room_btn">Play With Friends</string>
+    <string name="solo_room_btn">Play Solo</string>
+    <string name="credits" translatable="false">Credits
+        \n\nBig thank you to everyone who contributed to the project, both for testing and designing.
+        \n\nSpecial thank you to the following websites for providing graphis:
+        \n\nVecteezy
+        \nhttps://www.vecteezy.com
+        \n\nMyphotoshopbrushes
+        \nhttps://myphotoshopbrushes.com
+        \n\nShapes4free
+        \nhttp://www.shapes4free.com
+        \n\nThank you to the following contributors:
+        \n\nNate\'s shapes
+        \nby Nathan Blenke
+        \nhttps://myphotoshopbrushes.com/custom_shapes/id/2024/
+        \n\n5 Coffee and Tea Vector Shapes Set
+        \nby Oksana Khristenko
+        \nhttps://myphotoshopbrushes.com/custom_shapes/id/2046
+        \n\nMinistock
+        \nhttps://www.vecteezy.com/members/ministock
+        \n\nTheUjulala from Pixabay for the icon\'s magnifying glass.
+        \n\nIf we missed anyone that needed credit, please let us know at comma.devs@gmail.com
+        \n\nFinally, thank you for playing, without you the game wouldn\'t exist.
+    </string>
+    <string name="privacy_policy">Users have the right to know what personal information/data we use and receive.
+        \n\nComma Dev is a small indie company that has to make use of functions/services offered by external providers/companies(Third Party Operators) to be successful in today\'s market.
+        \n\nBy playing/using this game, you confirm that your age is 13 or above and that you acknowledge our Terms and Conditions which incorporates our Privacy Policy.
+    </string>
+    <string name="optional_update_title">Optional Update Available</string>
+    <string name="req_update_title">Important Update Available</string>
+    <string name="optional_update_message">A new update is out!\nYou can check it out now by clicking update or later by clicking later.</string>
+    <string name="req_update_message">A new important update is out!\nYou have to update the app before you can play.</string>
+    <string name="update">Update</string>
+    <string name="share_button">Invite</string>
+    <string name="share_text">Go check out Name Game on Google Play!</string>
+
+    <string name="later">Later</string>
+    <string name="press_back_if_cant_sign">Press back once if you can\'t sign in.</string>
+    <string name="error_getting_version">Error getting versioncode.</string>
+    <string name="enter_number_of_rounds">Please enter the number of rounds that you would like to play:</string>
+
+
+    <!-- HELPS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+
+    <string name="public_private_help"><b><u><big>Play Online</big></u></b>
+    \nChoose this option if you want to play against random players, in the same language as you, online.
+    \n\n\n<b><u><big>Play With Friends</big></u></b>
+    \nChoose this option if you want to create or join a game with friends or family. \nOnly people with the room\'s name can join.</string>
+
+    <string name="join_create_help"><b><u><big>Create Game</big></u></b>
+    \n\nThis option allows you to create a room with a special name. \n\nYou can share this name with your friends or family and they will be able to join.
+    \n\n\n<b><u><big>Join Game</big></u></b>
+    \n\nThis option allows you to join a room that one of your friends have created. \n\nThey will share the unique name of the room with you and you will be able to join them.</string>
+
+    <string name="join_game_pri_help"><b><u><big>Join Game</big></u></b>
+    \n\nYou are required to insert the room\'s name into the box at the top.
+    \n\nThis is the special name that your friend gave you when they created a room.
+    \n\nPlease make sure to type it correctly, it is case sensitive.</string>
+
+    <string name="join_game_pub_help"><b><u><big>Find Game</big></u></b>
+    \n\nChoose a language by pressing the button until your desired language is displayed.
+    \n\nThis language will be used in the game and you might not get points if you use a different language.
+    \n\nHit the play button and you will be connected to a random game with the same language.</string>
+
+    <string name="create_game_pri_help"><b><u><big>Create Game</big></u></b>
+    \n\nYou are required to insert the room\'s name into the box at the top.
+    \n\nThis is the special name that you give to your friends allowing them to join you.
+    \n\nPlease keep in mind that it is case sensitive.</string>
+
+    <string name="create_game_pub_help"><b><u><big>Create Game</big></u></b>
+        \n\nChoose a game mode by pressing the button until your desired game mode is displayed.
+        \n\n(If you want to know more about the different game modes, click the help button at the top of the screen)
+        \n\nThe selected language will be used in the game and you might not get points if you use a different language.</string>
+
+    <string name="create_game_solo_help"><b><u><big>Solo Game</big></u></b>
+        \n\nChoose a game mode by pressing the button until your desired game mode is displayed.
+        \n\n(If you want to know more about the different game modes, click the help button at the top of the screen)
+        \n\nThe selected language will be used in the game and you will get no points for words in different languages.</string>
+
+    <string name="public_difficulty_help"><b><u><big>Relaxed Mode</big></u></b>:\t
+        Difficult letters(Q-V-W-X-Y-Z) are removed from the alphabet but no grace period is given after the first stop call.
+        \n\n<b><u><big>Original Mode</big></u></b>:\t No letters are removed from the alphabet and no grace period is given after the first stop call.</string>
+
+    <string name="private_difficulty_help"><b><u><big>Grace Mode</big></u></b>:\t
+        Difficult letters(Q-V-W-X-Y-Z) are removed from the alphabet and a 3 second grace period is given to players after the first stop call.
+        \n\n<b><u><big>Relaxed Mode</big></u></b>:\t Difficult letters are removed from the alphabet but no grace period is given after the first stop call.
+        \n\n<b><u><big>Original Mode</big></u></b>:\t No letters are removed from the alphabet and no grace period is given after the first stop call.
+        \n\n<b><u><big>Custom Mode</big></u></b>:\t No letters are removed from the alphabet, but you choose what the subjects are.
+        \nName, Surname, Animal and Town can be changed to whatever you like.</string>
+
+    <string name="solo_difficulty_help"><b><u><big>Beginner Mode</big></u></b>:\t
+        Difficult letters(Q-V-W-X-Y-Z) are removed from the alphabet and the AI will type words very slowly - for beginners.
+        \n\n<b><u><big>Intermediate Mode</big></u></b>:\t The AI is much improved and types words quickly - for intermediate players.
+        \n\n<b><u><big>Hard Mode</big></u></b>:\t The AI is angry now, beatable, but angry. Good luck!</string>
+
+    <string name="how_to_play_help">The aim of the game is to think of words that start with a certain, randomly generated, letter, faster than everybody else in the room.
+        \n\nYou\'ll need to think of a name, surname, animal and city/town that starts with the letter that will be displayed on your screen.
+        \n\nTo find out more about the different game modes, go to create game and click on the help icon.</string>
+    <string name="text_contains_profanity">Text contains profanity. Please choose a different username.</string>
+    <string name="tut_next">Got it!</string>
+    <string name="tut_stop">Cancel</string>
+
+    <string name="tut_mess_0">You can change your username at any time up here</string>
+    <string name="tut_mess_1">This is your avatar, you can buy new avatars with earnable points</string>
+    <string name="tut_mess_2">This is your points balance. Play games to earn more points!</string>
+    <string name="tut_mess_3">You can use this button to share the game with a friend</string>
+    <string name="tut_mess_4">Allows you to play with anybody that is searching for a game</string>
+    <string name="tut_mess_5">Create your own lobby that only friends can join with a secret lobby name</string>
+    <string name="tut_mess_6">Solo games are great for learning the game while having fun</string>
+    <string name="tut_mess_7">Create a game with a special name that you can share with your friends. This name is case-sensitive</string>
+    <string name="tut_mess_8">Join a game with a special code from a friend</string>
+
+
+    <string name="language_first_time_mesg">Is this language setting right for you?\nIf not, please select your preferred language form the drop-down list below.</string>
+
+
+
+
+</resources>
