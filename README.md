@@ -1,13 +1,31 @@
-# Name Game
-Name Game, an old traditional game with many different handles and variants. I recreated the one that I used to play growing up.
+# NameGame
 
-# The Game
-The game used to be a pen-and-paper game that I have modernized into an Android game. A letter from the alphabet gets chosen at random and everyone participating has to come up with a name, surname, animal and town starting with the letter chosen.
-The game is available on the Google Playstore under name-vanne-diere-dorpe(Afrikaans) or Name Game(English).
+NameGame is a modern digital adaptation of a traditional pen-and-paper game with many regional variants. Players are given a random letter from the alphabet and must quickly come up with a **name**, **surname**, **animal**, and **town** that all begin with that letter. The game encourages creativity, memory, and fast thinking, and can be played solo or in groups.
+
+## About the Game
+
+What was once a handwritten, time-keeping challenge has been rebuilt into a mobile application for Android. A random letter is selected, and participants compete to complete all four categories as quickly and accurately as possible.
+
+NameGame is available on the Google Play Store in Afrikaans as **Name-Vanne-Diere-Dorpe** and in English as **Name Game**:
+
 [Google Play Store](https://play.google.com/store/apps/details?id=com.commarian.namegamet3&hl=en-IE)
 
-# The Code
-The code was entirely written by me, Christo. It is my first large scale project that I started. The code is written in Java and follows no concise methodology or any good coding practices as it was more of a learning experience for me than anything else.
+## Development
 
-# Building The Repo
-I keep the Google Playstore project as updated as possible with stable releases. Anybody can download the compiled version of the Application for free. If you insist on building it yourself, I used Android Studio to compile and deploy the app.
+This was my first large-scale software project, created before I completed my Computer Science degree. All development was done individually and entirely in **Java**, using **Android Studio** as the development environment.
+
+The codebase reflects the learning-focused nature of the project: it does not follow proper architectural structure or clean-code methodologies. It is rudimentary, rough around the edges, and far from exemplary—but it taught me a significant amount about software development fundamentals, debugging, UI/UX, and project delivery.
+
+## Current Status
+
+Active support and development have been discontinued. Frequent Google Play and Android platform updates repeatedly introduced breaking changes, and maintaining compatibility became unsustainable for an independent developer. As a result, the application is no longer being updated or expanded.
+
+The existing version remains available on the Play Store for reference and for anyone who still enjoys playing it.
+
+## Building the Project
+
+A compiled version is available for free on the Google Play Store. For those who wish to build it manually:
+
+- Built using **Android Studio**
+- Written in **Java**
+- Uses standard Android SDK components
